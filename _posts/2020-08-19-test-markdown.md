@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Code Snippets 
 description: Examples of Code Snippets with Syntax Highlighting
 category: Sample

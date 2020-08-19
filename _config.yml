@@ -9,3 +9,9 @@ plugins:
  # - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+
+  # Syntax highlighting <= disables built-in highlighter so that we can use Prism
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
