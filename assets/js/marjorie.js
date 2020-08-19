@@ -1,8 +1,8 @@
 
 
-//$(document).ready(function () {
-
-
+$(document).ready(function () {
+     typedJS();
+});
 
 /*-------------------------
         TYPED JS
@@ -22,6 +22,4 @@ function typedJS() {
         };
         var typed = new Typed(".element", options);
     }
-}
-
-//});
+};
