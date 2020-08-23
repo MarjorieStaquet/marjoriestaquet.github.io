@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/sample/2018/04/01/code-snippets.html</loc>
+<lastmod>2018-04-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample/2018/05/19/figure-element.html</loc>
+<lastmod>2018-05-19T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample/2018/05/19/picture-element.html</loc>
+<lastmod>2018-05-19T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample/2018/05/19/ready-sample-one.html</loc>
+<lastmod>2018-05-19T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/sample/2020/08/19/test-markdown.html</loc>
 <lastmod>2020-08-19T00:00:00+02:00</lastmod>
 </url>

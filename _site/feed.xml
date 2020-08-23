@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-21T14:43:11+02:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Code Snippets</title><link href="http://localhost:4000/sample/2020/08/19/test-markdown.html" rel="alternate" type="text/html" title="Code Snippets" /><published>2020-08-19T00:00:00+02:00</published><updated>2020-08-19T00:00:00+02:00</updated><id>http://localhost:4000/sample/2020/08/19/test-markdown</id><content type="html" xml:base="http://localhost:4000/sample/2020/08/19/test-markdown.html">&lt;h1 id=&quot;code-syntax-highlighting-with-rouge&quot;&gt;Code Syntax Highlighting with Rouge&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T13:04:26+02:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Code Snippets</title><link href="http://localhost:4000/sample/2020/08/19/test-markdown.html" rel="alternate" type="text/html" title="Code Snippets" /><published>2020-08-19T00:00:00+02:00</published><updated>2020-08-19T00:00:00+02:00</updated><id>http://localhost:4000/sample/2020/08/19/test-markdown</id><content type="html" xml:base="http://localhost:4000/sample/2020/08/19/test-markdown.html">&lt;h1 id=&quot;code-syntax-highlighting-with-rouge&quot;&gt;Code Syntax Highlighting with Rouge&lt;/h1&gt;
 
 &lt;p&gt;Syntax highlighting is performed by Jekyll’s built-in &lt;a href=&quot;https://github.com/jneen/rouge&quot;&gt;Rouge&lt;/a&gt;.&lt;/p&gt;
 
@@ -81,4 +81,645 @@
 &lt;span class=&quot;nc&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Code Syntax Highlighting with Rouge</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Code Syntax Highlighting with Rouge</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markus-spiske-109588-unsplash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markus-spiske-109588-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Sampling</title><link href="http://localhost:4000/sample/2018/05/19/ready-sample-one.html" rel="alternate" type="text/html" title="A Sampling" /><published>2018-05-19T00:00:00+02:00</published><updated>2018-05-19T00:00:00+02:00</updated><id>http://localhost:4000/sample/2018/05/19/ready-sample-one</id><content type="html" xml:base="http://localhost:4000/sample/2018/05/19/ready-sample-one.html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keyword&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;This is what a link looks like&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paragraphs are separated by whitespace automatically.&lt;/p&gt;
+
+&lt;p&gt;Tingling of the spine, Tunguska event are creatures of the cosmos, Drake Equation, white dwarf descended from astronomers, rogue white dwarf light years radio telescope a billion trillion?&lt;/p&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph following a header. Health goth readymade plaid put a bird on it bicycle rights tote bag biodiesel leggings enim sustainable hexagon succulents locavore listicle. Cliche organic pork belly literally tattooed, paleo fashion axe. Mollit occaecat crucifix venmo bitters vegan fashion axe celiac brunch letterpress plaid scenester. Banjo tumeric celiac veniam pour-over.&lt;/p&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;p&gt;This is a blockquote with inline HTML using Bootstrap footer and cite classes&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;Just because you are a character doesn't mean that you have character.&lt;/p&gt;
+  &lt;footer class=&quot;blockquote-footer&quot;&gt;The Wolf in &lt;cite title=&quot;Source Title&quot;&gt;Pulp Fiction&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a blockquote generated from this post’s &lt;em&gt;front matter&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;These violent delights have violent ends.&lt;/p&gt;&lt;footer class=&quot;blockquote-footer&quot;&gt;William Shakespeare, 
+    &lt;cite title=&quot;Source Title&quot;&gt;Romeo and Juliet&lt;/cite&gt;
+  &lt;/footer&gt;&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered list after a header&lt;/li&gt;
+  &lt;li&gt;Unordered list after a header&lt;/li&gt;
+  &lt;li&gt;Unordered list after a header&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ordered list after a header&lt;/li&gt;
+  &lt;li&gt;Ordered list after a header&lt;/li&gt;
+  &lt;li&gt;Ordered list after a header&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;header-6---table-with-zebra-stripes-using-bootstrap-classes&quot;&gt;Header 6 - Table with zebra stripes (using Bootstrap classes)&lt;/h6&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;#&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;First&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Last&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Handle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mark&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Otto&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;@mdo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jacob&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Thornton&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;@fat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Larry&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;the Bird&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;@twitter&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot;&gt;There’s a horizontal rule below this&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;here-is-an-unordered-list&quot;&gt;Here is an unordered list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item foo&lt;/li&gt;
+  &lt;li&gt;Item bar&lt;/li&gt;
+  &lt;li&gt;Item baz&lt;/li&gt;
+  &lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;and-an-ordered-list&quot;&gt;And an ordered list&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;Item three&lt;/li&gt;
+  &lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;and-a-nested-list&quot;&gt;And a nested list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item
+        &lt;ul&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;an-unordered-list-using-bootstrap-list-group-classes-html&quot;&gt;An unordered list using Bootstrap list-group classes (HTML)&lt;/h3&gt;
+
+&lt;ul class=&quot;list-group list-group-flush px-5 py-3&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Item 1&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Item 2&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;h4 id=&quot;using-markdown&quot;&gt;Using Markdown&lt;/h4&gt;
+
+&lt;p&gt;Using markdown to insert images is quick and easy, but you may notice some slow load times, esp. when compared to responsive images.&lt;/p&gt;
+
+&lt;p&gt;Images can be inserted using normal markdown syntax like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Octocat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://assets-cdn.github.com/images/icons/emoji/octocat.png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;small-image-using-markdown&quot;&gt;Small Image Using Markdown&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.togomeetings.com/wp-content/uploads/2017/08/luxury-spock-poster-and-gut-of-portland-premiere-for-the-love-of-spock-posters-4-128x128.jpg&quot; alt=&quot;Spock&quot; class=&quot;rounded&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;large-image-using-markdown&quot;&gt;Large Image Using Markdown&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://artofvfx.com/wp-content/uploads/2016/09/Westworld_Chaos_trailer.png&quot; alt=&quot;Westworld&quot; class=&quot;rounded&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;heres-a-gif-using-markdown&quot;&gt;Here’s a GIF Using Markdown&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://thefilmexperience.net/storage/2017/2049.gif&quot; alt=&quot;BladeRunner_2049&quot; class=&quot;rounded&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;responsive-image-using-html-5-figure-tag&quot;&gt;Responsive Image Using HTML 5 Figure Tag&lt;/h5&gt;
+
+&lt;p&gt;The below image was insterted using this Liquid tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;figure.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.webp 1x,
+      /assets/images/responsive/-sm-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.jpg 1x,
+      /assets/images/responsive/-sm-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.webp 1x,
+    /assets/images/responsive/-md-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.jpg 1x,
+    /assets/images/responsive/-md-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.webp 1x,
+    /assets/images/responsive/-xl-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.jpg 1x,
+    /assets/images/responsive/-xl-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img srcset=&quot;
+        /assets/images/responsive/-sm-1x.jpg 576w,
+        /assets/images/responsive/-md-1x.jpg 768w,
+        /assets/images/responsive/-xl-1x.jpg 1440w&quot; src=&quot;/assets/images/responsive/-md-1x.jpg&quot; alt=&quot;A Sampling&quot; class=&quot;figure-img rounded&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;/picture&gt;&lt;figcaption class=&quot;figure-caption text-right pr-2&quot;&gt;
+    Photo by
+    &lt;a href=&quot;https://unsplash.com/photos/MsMISAIe8Qw&quot;&gt;Andre Benz&lt;/a&gt; on
+    &lt;a href=&quot;https://unsplash.com/@trapnation&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;More on how this works &lt;a href=&quot;/sample/2018/05/19/figure-element.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Text can be bold, italic, strikethrough or keyword.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/andre-benz-250740-unsplash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/andre-benz-250740-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Picture Elements</title><link href="http://localhost:4000/sample/2018/05/19/picture-element.html" rel="alternate" type="text/html" title="Picture Elements" /><published>2018-05-19T00:00:00+02:00</published><updated>2018-05-19T00:00:00+02:00</updated><id>http://localhost:4000/sample/2018/05/19/picture-element</id><content type="html" xml:base="http://localhost:4000/sample/2018/05/19/picture-element.html">&lt;h1 id=&quot;html-5-picture-element&quot;&gt;HTML 5 Picture Element&lt;/h1&gt;
+
+&lt;h2 id=&quot;a-responsive-image&quot;&gt;A Responsive Image&lt;/h2&gt;
+
+&lt;p&gt;This is a responsive image, using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.webp 1x,
+      /assets/images/responsive/-sm-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.jpg 1x,
+      /assets/images/responsive/-sm-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.webp 1x,
+    /assets/images/responsive/-md-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.jpg 1x,
+    /assets/images/responsive/-md-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.webp 1x,
+    /assets/images/responsive/-xl-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.jpg 1x,
+    /assets/images/responsive/-xl-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img srcset=&quot;
+        /assets/images/responsive/-sm-1x.jpg 576w,
+        /assets/images/responsive/-md-1x.jpg 768w,
+        /assets/images/responsive/-xl-1x.jpg 1440w&quot; src=&quot;/assets/images/responsive/-md-1x.jpg&quot; alt=&quot;Picture Elements&quot; class=&quot;figure-img rounded&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;&lt;/a&gt; element let’s you take advantage of responsive images. One of the key benefits is that users only download images at a size that matches their device. There’s no need to download a 1200px wide image to a smartphone with a screen that’s 320px wide, right?&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to&quot;&gt;How to&lt;/h2&gt;
+
+&lt;p&gt;In order to add a responsive image to your post, you first need to add an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image&lt;/code&gt; variable in your &lt;em&gt;front matter&lt;/em&gt; like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Picture Elements&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Use picture element for responsive images&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Sample&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;galen-crout-87390-unsplash.jpg&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then you call the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;picture.html&lt;/code&gt; include file, using the following Liquid tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;picture.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This handy include let’s you not have to write the following code everytime. There is also another include file, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;picture_logic.html&lt;/code&gt;, that is called on the home page, which will use this same image on the post’s card entry.&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;-%}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{%-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;-%}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{%-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/assets/images/responsive/&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;-%}&lt;/span&gt;
+  &amp;lt;picture&amp;gt;
+    &amp;lt;source media=&quot;(max-width: 576px)&quot;
+    srcset=&quot;
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-sm-1x.webp 1x,
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-sm-2x.webp 2x
+    &quot;
+    type=&quot;image/webp&quot;
+    &amp;gt;
+    &amp;lt;source media=&quot;(max-width: 576px)&quot;
+    srcset=&quot;
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-sm-1x.jpg 1x,
+      &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-sm-2x.jpg 2x
+    &quot;
+    type=&quot;image/jpeg&quot;
+    &amp;gt;
+    &amp;lt;source media=&quot;(max-width: 768px)&quot;
+    srcset=&quot;
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-1x.webp 1x,
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-2x.webp 2x
+    &quot;
+    type=&quot;image/webp&quot;
+    &amp;gt;
+    &amp;lt;source media=&quot;(max-width: 768px)&quot;
+    srcset=&quot;
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-1x.jpg 1x,
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-2x.jpg 2x
+    &quot;
+    type=&quot;image/jpeg&quot;
+    &amp;gt;
+    &amp;lt;source media=&quot;(min-width: 769px)&quot;
+    srcset=&quot;
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-xl-1x.webp 1x,
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-xl-2x.webp 2x
+    &quot;
+    type=&quot;image/webp&quot;
+    &amp;gt;
+    &amp;lt;source media=&quot;(min-width: 769px)&quot;
+    srcset=&quot;
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-xl-1x.jpg 1x,
+    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-xl-2x.jpg 2x
+    &quot;
+    type=&quot;image/jpeg&quot;
+    &amp;gt;
+    &amp;lt;img
+      srcset=&quot;
+        &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-sm-1x.jpg 576w,
+        &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-1x.jpg 768w,
+        &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-xl-1x.jpg 1440w&quot;
+      src=&quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;img_path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;-md-1x.jpg&quot;
+      alt=&quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&quot;
+      class=&quot;figure-img rounded&quot;
+      type=&quot;image/jpeg&quot;
+      &amp;gt;
+  &amp;lt;/picture&amp;gt;
+&lt;span class=&quot;p&quot;&gt;{%-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;-%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+
+&lt;p&gt;Maciej Nowakowski has done an &lt;strong&gt;awesome&lt;/strong&gt; writeup on Medium about this: &lt;a href=&quot;https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433&quot;&gt;A Guide to Responsive Images with Ready-to-Use Templates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;His guide was indespensible in creating this as well as the responsive Jumbotron background images.&lt;/p&gt;
+
+&lt;p&gt;While it might seem a bit excessive to create a bunch of images like this, I think this comment sums it up nicely.&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;Why generate 12 versions of the same image when just 2 media-queries do the job? The users won’t notice... But Google will.&lt;/p&gt;&lt;footer class=&quot;blockquote-footer&quot;&gt;Maciej Nowakowski, 
+    &lt;cite title=&quot;Source Title&quot;&gt;Medium&lt;/cite&gt;
+  &lt;/footer&gt;&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;can-i-use&quot;&gt;Can I Use?&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element is supported fairly well by modern browsers. Internet Explorer (IE) is sadly not very modern. There is a polyfill that I might add to support IE if anyone sends me enough crying emojis from their machine running Windows Vista.&lt;/p&gt;
+
+&lt;p class=&quot;ciu_embed&quot; data-feature=&quot;picture&quot; data-periods=&quot;future_3,future_2,future_1,current,past_1,past_2,past_3&quot; data-accessible-colours=&quot;false&quot;&gt;
+  &lt;a href=&quot;http://caniuse.com/#feat=picture&quot;&gt;Can I Use picture?&lt;/a&gt; Data on support for the picture feature across the major browsers from caniuse.com.
+&lt;/p&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">HTML 5 Picture Element</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/galen-crout-87390-unsplash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/galen-crout-87390-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Figure Elements</title><link href="http://localhost:4000/sample/2018/05/19/figure-element.html" rel="alternate" type="text/html" title="Figure Elements" /><published>2018-05-19T00:00:00+02:00</published><updated>2018-05-19T00:00:00+02:00</updated><id>http://localhost:4000/sample/2018/05/19/figure-element</id><content type="html" xml:base="http://localhost:4000/sample/2018/05/19/figure-element.html">&lt;h1 id=&quot;a-picture-in-a-figure&quot;&gt;A Picture in a Figure&lt;/h1&gt;
+
+&lt;p&gt;The picture below is a &lt;em&gt;responsive&lt;/em&gt; image made possible by the methods described &lt;a href=&quot;/sample/2018/05/19/picture-element.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The only difference is that this picture has a nicely formatted caption.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.webp 1x,
+      /assets/images/responsive/-sm-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 576px)&quot; srcset=&quot;
+      /assets/images/responsive/-sm-1x.jpg 1x,
+      /assets/images/responsive/-sm-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.webp 1x,
+    /assets/images/responsive/-md-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;
+    /assets/images/responsive/-md-1x.jpg 1x,
+    /assets/images/responsive/-md-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.webp 1x,
+    /assets/images/responsive/-xl-2x.webp 2x
+    &quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source media=&quot;(min-width: 769px)&quot; srcset=&quot;
+    /assets/images/responsive/-xl-1x.jpg 1x,
+    /assets/images/responsive/-xl-2x.jpg 2x
+    &quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img srcset=&quot;
+        /assets/images/responsive/-sm-1x.jpg 576w,
+        /assets/images/responsive/-md-1x.jpg 768w,
+        /assets/images/responsive/-xl-1x.jpg 1440w&quot; src=&quot;/assets/images/responsive/-md-1x.jpg&quot; alt=&quot;Figure Elements&quot; class=&quot;figure-img rounded&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;/picture&gt;&lt;figcaption class=&quot;figure-caption text-right pr-2&quot;&gt;
+    Photo by
+    &lt;a href=&quot;https://unsplash.com/photos/8sOZJ8JF0S8&quot;&gt;Sora Sagano&lt;/a&gt; on
+    &lt;a href=&quot;https://unsplash.com/@s_sagano&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;To insert a picture like the above, use the following Liquid tag in your post or page:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;figure.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The above will insert the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_figure.html&lt;/code&gt; file as an include, which relies on &lt;em&gt;front matter&lt;/em&gt; for its variables to display anything from a simple caption to a caption with links for the photographer’s website and/or the image’s source.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Figure Elements&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Responsive images with captions&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Sample&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;sora-sagano-639761-unsplash.jpg&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image-caption&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image-source&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Unsplash&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image-url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://unsplash.com/photos/8sOZJ8JF0S8&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;photographer&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Sora Sagano&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;photographer-url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://unsplash.com/@s_sagano&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’ve tried to make the logic as simple as possible, but it can make your head explode if you think about it too much.&lt;/p&gt;
+
+&lt;p&gt;The logic goes a little somethin’ like this (but maybe not exactly, as it’s really hard to write it all in plain English):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If there’s a plain text caption, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-caption&lt;/code&gt;, use that&lt;/li&gt;
+  &lt;li&gt;If there’s a no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-caption&lt;/code&gt;, but you have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer-url&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-source&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-url&lt;/code&gt;, use them with links&lt;/li&gt;
+  &lt;li&gt;If there’s a no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-caption&lt;/code&gt; and no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-url&lt;/code&gt;; but you have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer-url&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-source&lt;/code&gt;, use them with links&lt;/li&gt;
+  &lt;li&gt;If there’s a no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-caption&lt;/code&gt;, no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-source&lt;/code&gt;, and no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-url&lt;/code&gt;; but you have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photographer-url&lt;/code&gt; use them with a link&lt;/li&gt;
+  &lt;li&gt;If you only have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image-url&lt;/code&gt;, use those with a link&lt;/li&gt;
+  &lt;li&gt;Anything else gets a blank caption (I think)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;:flushed: The code for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure.html&lt;/code&gt; include file is here for reference:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{%- if page.image -%}
+{%- assign f = page.image | split: '.' %} {% assign img_path = site.baseurl | append: &quot;/assets/images/responsive/&quot; -%}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;picture&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(max-width: 576px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+      {{ img_path | append: f[0] | append: relative_url }}-sm-1x.webp 1x,
+      {{ img_path | append: f[0] | append: relative_url }}-sm-2x.webp 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/webp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(max-width: 576px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+      {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpg 1x,
+      {{ img_path | append: f[0] | append: relative_url }}-sm-2x.jpg 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/jpeg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(max-width: 768px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+    {{ img_path | append: f[0] | append: relative_url }}-md-1x.webp 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-md-2x.webp 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/webp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(max-width: 768px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+    {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-md-2x.jpg 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/jpeg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(min-width: 769px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+    {{ img_path | append: f[0] | append: relative_url }}-xl-1x.webp 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-xl-2x.webp 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/webp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;source&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(min-width: 769px)&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+    {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpg 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-xl-2x.jpg 2x
+    &quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/jpeg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;srcset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;
+        {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpg 576w,
+        {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg 768w,
+        {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpg 1440w&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg&quot;&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.title }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-img rounded&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/jpeg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/picture&amp;gt;&lt;/span&gt;
+  {%- if page.image-caption -%}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-caption text-right pr-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{page.image-caption}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+  {%- elsif page.photographer and page.photographer-url and page.image-source and page.image-url -%}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-caption text-right pr-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Photo by
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.image-url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.photographer }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; on
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.photographer-url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.image-source }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+  {%- elsif page.photographer and page.photographer-url and page.image-source -%}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-caption text-right pr-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Photo by
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.image-url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.photographer }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; on {{ page.image-source }}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+  {%- elsif page.photographer and page.photographer-url -%}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-caption text-right pr-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Photo by
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.photographer-url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.photographer }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+  {%- elsif page.image-source and page.image-url -%}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure-caption text-right pr-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Photo from
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.image-url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.image-source }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+  {%- endif -%}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
+{%- endif -%}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">A Picture in a Figure</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/sora-sagano-639761-unsplash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/sora-sagano-639761-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Code Snippets</title><link href="http://localhost:4000/sample/2018/04/01/code-snippets.html" rel="alternate" type="text/html" title="Code Snippets" /><published>2018-04-01T00:00:00+02:00</published><updated>2018-04-01T00:00:00+02:00</updated><id>http://localhost:4000/sample/2018/04/01/code-snippets</id><content type="html" xml:base="http://localhost:4000/sample/2018/04/01/code-snippets.html">&lt;h1 id=&quot;code-syntax-highlighting-with-rouge&quot;&gt;Code Syntax Highlighting with Rouge&lt;/h1&gt;
+
+&lt;p&gt;Syntax highlighting is performed by Jekyll’s built-in &lt;a href=&quot;https://github.com/jneen/rouge&quot;&gt;Rouge&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rouge supports a &lt;strong&gt;ton&lt;/strong&gt; of languages, and you can find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;short-codes&lt;/code&gt; &lt;a href=&quot;https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The theme used is &lt;a href=&quot;https://github.com/dracula/pygments&quot;&gt;Dracula&lt;/a&gt;, and it’s located in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/_assets/scss/custom/includes/_syntax_highlighting.scss&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;I’ve added some small border, margin, and padding refinements to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;highlight&lt;/code&gt; class:&lt;/p&gt;
+
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dt-gray-dark&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dt-gray-light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.6rem&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.6rem&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.1rem&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can tweak this all you want and/or swap out the entire contents of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_syntax_highlighting.scss&lt;/code&gt; file to make it your own.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-highlighting-examples&quot;&gt;Code highlighting examples&lt;/h2&gt;
+
+&lt;h3 id=&quot;terminal-shell&quot;&gt;Terminal (shell)&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A terminal &lt;span class=&quot;nb&quot;&gt;command&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container py5&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;javascript&quot;&gt;JavaScript&lt;/h4&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;liquid&quot;&gt;Liquid&lt;/h4&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site.docs&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &amp;lt;h2&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;p&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;&amp;lt;a href=&quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&quot;&amp;gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;:point_up: When writing Liquid code snippets, be sure to surround your Liquid code with raw/endraw tags, or Jekyll will actually process the code as written. See &lt;a href=&quot;https://shopify.github.io/liquid/tags/raw/&quot;&gt;here&lt;/a&gt; for more info.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;react-jsx&quot;&gt;React JSX&lt;/h4&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Bonjour!&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;sass-scss&quot;&gt;Sass (SCSS)&lt;/h4&gt;
+
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;@mixin&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;-webkit-border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;-moz-border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;-ms-border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Code Syntax Highlighting with Rouge</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markus-spiske-109588-unsplash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markus-spiske-109588-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dexteriore ametur</title><link href="http://localhost:4000/sample/2018/03/09/dexteriore.html" rel="alternate" type="text/html" title="Dexteriore ametur" /><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><id>http://localhost:4000/sample/2018/03/09/dexteriore</id><content type="html" xml:base="http://localhost:4000/sample/2018/03/09/dexteriore.html">&lt;h1 id=&quot;dexteriore-ametur-obruta-teneris-in-aera-irascentemque&quot;&gt;Dexteriore ametur obruta teneris in aera irascentemque&lt;/h1&gt;
+
+&lt;h2 id=&quot;esse-luctus&quot;&gt;Esse luctus&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum dolores; iam foret &lt;strong&gt;est fontes celebrabant&lt;/strong&gt; arcus et bacarum
+vocatur est omnes orbem, et. Quid quanto herbas frenabas nam gravemque vindex
+pressaeque Caenea modo postulat &lt;strong&gt;excutit legem&lt;/strong&gt; quondam. Crimina coactus
+ostendens verba? Haec per manus manu medere spectabere accipe totum quae agitur
+&lt;strong&gt;insequor&lt;/strong&gt;, fugit tuae &lt;a href=&quot;http://www.bracchia.io/&quot;&gt;caestibus&lt;/a&gt;. Moenia anus
+lectos &lt;strong&gt;dixit sumptis formas&lt;/strong&gt;: metu fertis &lt;a href=&quot;http://www.miramundi.org/&quot;&gt;vox&lt;/a&gt; et
+fulgura labori Tmolus nisi nec tanto atque sub liquor.&lt;/p&gt;
+
+&lt;h2 id=&quot;fontis-satus-cara&quot;&gt;Fontis satus cara&lt;/h2&gt;
+
+&lt;p&gt;Si Achaia minimus exauditi illic, in edocuit Romuleae simulacra labor. Tympana
+diffudere ramis.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;513888&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;commerce_exif_mms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dvd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;directxOutput&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;frequency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;target_dot_card&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cyberspace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;barTrackback&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;wamp_dns_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;website_drive_domain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;snapshotVector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cpl_dvd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;prom_cycle_wildcard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;smmGnuRw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;copyright&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;serp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;intranet_simm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;clientVideo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zone_pinterest_express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;boot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mtuBoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tabletThickCopyright&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;wais&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;wireless_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;urlDonationwarePacket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;umlRead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;box_crossplatform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;menu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;verba-vocis&quot;&gt;Verba vocis&lt;/h2&gt;
+
+&lt;p&gt;Es habebat conplexaque dixit praecordiaque Turne; Capitolia neque dulces calidus
+concipit, ad en! Phrygia tuba filius celebrant dedit ignotae hirsutus et proxima
+&lt;a href=&quot;http://heu.org/iuvenalibus&quot;&gt;mersaeque tamen&lt;/a&gt; letalem inmissos longum libandas
+quo, timenda. Animam per non adgrediar genuisse. Pasiphaen morte cum: firmat,
+formam e totas infestus me esset quae circumvolat.&lt;/p&gt;
+
+&lt;p&gt;Pullo dilecta qui Eleusin terga ab auro poenaededidit neque prona valuit
+frustra. Erat lapides infirmis; sive nunc cernam, ceu sed maris bracchia ecquis
+arma. Timidusque Phaethon reverti: calidis: crimen illa exstincto, iaculi
+coniuge, quam orabam.&lt;/p&gt;
+
+&lt;h2 id=&quot;dixit-fixo-barbam&quot;&gt;Dixit fixo barbam&lt;/h2&gt;
+
+&lt;p&gt;Donis ductum, lacrimas &lt;em&gt;ecce&lt;/em&gt;, clam ego amantes vices deae, palmis videri erit
+cinctaque. Et oscula dimovit &lt;em&gt;prosunt domos&lt;/em&gt; profundum Marte: Procne pervenit
+committe umeri exegit placavit. Primum narravit, ire templa obscura per. Ulixes
+mihi &lt;em&gt;vivam&lt;/em&gt; fallit odit numen cognovit.&lt;/p&gt;
+
+&lt;p&gt;Patris Trinacriam carinae, ei male, est tota paenitet ferroque numina? Est summo
+cum auro ille rerum Hodites pennatis eiusdem toto &lt;em&gt;herbarum atque esse&lt;/em&gt;. Bene
+miscet cum, arcus cicuta adloquitur venias fatale, labores.&lt;/p&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Dexteriore ametur obruta teneris in aera irascentemque</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://media1.tenor.com/images/ecfffdc39f31945a0b390e7e5d3d00f6/tenor.gif?itemid=4816123" /><media:content medium="image" url="https://media1.tenor.com/images/ecfffdc39f31945a0b390e7e5d3d00f6/tenor.gif?itemid=4816123" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cardigan Butcher</title><link href="http://localhost:4000/sample/2018/02/14/cardigan-butcher.html" rel="alternate" type="text/html" title="Cardigan Butcher" /><published>2018-02-14T00:00:00+01:00</published><updated>2018-02-14T00:00:00+01:00</updated><id>http://localhost:4000/sample/2018/02/14/cardigan-butcher</id><content type="html" xml:base="http://localhost:4000/sample/2018/02/14/cardigan-butcher.html">&lt;p&gt;Cardigan taiyaki butcher, food truck raw denim pop-up copper mug trust fund jean shorts disrupt YOLO yr. Meh fixie blue bottle drinking vinegar la croix. Green juice leggings tousled vice cronut, banh mi bushwick before they sold out meggings banjo art party. Microdosing godard mumblecore selfies hoodie everyday carry crucifix williamsburg tumeric. Subway tile lomo poutine franzen literally jean shorts.&lt;/p&gt;
+
+&lt;p&gt;Iceland activated charcoal hot chicken hexagon organic. Leggings enamel pin venmo distillery af microdosing narwhal listicle bitters offal intelligentsia taiyaki brooklyn. Shabby chic cred pour-over mustache. Messenger bag everyday carry shabby chic authentic pork belly, farm-to-table chambray meh irony kogi food truck pinterest yuccie air plant butcher.&lt;/p&gt;
+
+&lt;p&gt;Actually whatever snackwave crucifix truffaut, heirloom 3 wolf moon marfa hammock hot chicken cred ethical wayfarers. Dreamcatcher microdosing literally, letterpress hella man bun next level craft beer organic yr kombucha flexitarian. Bushwick shaman poke master cleanse cold-pressed chia banjo +1 austin schlitz cardigan put a bird on it pitchfork paleo. Irony health goth iceland lo-fi mumblecore. Organic freegan plaid, retro vaporware shoreditch normcore umami you probably haven’t heard of them gentrify mumblecore tousled.&lt;/p&gt;
+
+&lt;p&gt;Poutine cred salvia mumblecore mlkshk. Microdosing wayfarers 3 wolf moon flexitarian tote bag. Hammock neutra wolf pabst af hell of. Lomo wolf whatever woke XOXO, paleo artisan next level cray air plant.&lt;/p&gt;
+
+&lt;p&gt;Trust fund PBR&amp;amp;B meh, deep v neutra truffaut activated charcoal tote bag brunch viral banh mi actually quinoa. Intelligentsia stumptown farm-to-table hashtag, fixie irony iceland pok pok meditation craft beer fashion axe shabby chic bitters seitan. Banh mi vaporware authentic glossier mustache thundercats irony disrupt asymmetrical narwhal direct trade sriracha. Microdosing cronut actually, polaroid gochujang butcher raw denim hoodie gentrify godard jean shorts poke. Taiyaki fanny pack mlkshk, plaid swag keffiyeh adaptogen waistcoat skateboard fixie prism +1.
+Oh. You need a little dummy text for your mockup? How quaint.&lt;/p&gt;
+
+&lt;p&gt;I bet you’re still using Bootstrap too…&lt;/p&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Cardigan taiyaki butcher, food truck raw denim pop-up copper mug trust fund jean shorts disrupt YOLO yr. Meh fixie blue bottle drinking vinegar la croix. Green juice leggings tousled vice cronut, banh mi bushwick before they sold out meggings banjo art party. Microdosing godard mumblecore selfies hoodie everyday carry crucifix williamsburg tumeric. Subway tile lomo poutine franzen literally jean shorts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.chzbgr.com/full/4572850688/h68A96259/" /><media:content medium="image" url="https://i.chzbgr.com/full/4572850688/h68A96259/" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jean Shorts</title><link href="http://localhost:4000/sample/2018/01/01/jean-shorts.html" rel="alternate" type="text/html" title="Jean Shorts" /><published>2018-01-01T00:00:00+01:00</published><updated>2018-01-01T00:00:00+01:00</updated><id>http://localhost:4000/sample/2018/01/01/jean-shorts</id><content type="html" xml:base="http://localhost:4000/sample/2018/01/01/jean-shorts.html">&lt;p&gt;Jean shorts la croix subway tile master cleanse, lo-fi chartreuse hoodie. Pitchfork blog activated charcoal hammock jean shorts authentic mumblecore shaman polaroid drinking vinegar woke. Neutra green juice yuccie godard normcore. Vaporware tbh lo-fi cardigan lomo. Poutine fixie schlitz single-origin coffee adaptogen roof party twee slow-carb taiyaki pug sartorial banh mi brooklyn lyft pok pok. Affogato chambray messenger bag sartorial everyday carry.&lt;/p&gt;
+
+&lt;p&gt;Messenger bag cold-pressed distillery palo santo, hell of ugh photo booth offal. Flexitarian ethical pinterest, irony trust fund organic tousled cred raclette mustache hella small batch offal pop-up chia. Shaman blue bottle letterpress forage. Sustainable 8-bit you probably haven’t heard of them green juice fixie. Bushwick microdosing austin +1 keffiyeh mustache succulents.&lt;/p&gt;
+
+&lt;p&gt;90’s fam you probably haven’t heard of them single-origin coffee. Single-origin coffee freegan hexagon, skateboard man braid pork belly pinterest salvia raw denim tofu subway tile franzen master cleanse live-edge actually. Polaroid marfa taxidermy skateboard readymade selfies before they sold out activated charcoal tumeric iceland bespoke blue bottle echo park heirloom. Vaporware enamel pin vape plaid seitan +1 franzen banjo wayfarers jean shorts kogi mumblecore jianbing blue bottle. Activated charcoal locavore green juice kogi, hammock migas +1 etsy.&lt;/p&gt;
+
+&lt;p&gt;Kinfolk tilde blue bottle heirloom tumeric fam. Bushwick banh mi mlkshk, YOLO raw denim PBR&amp;amp;B 90’s taiyaki. Tofu humblebrag kickstarter beard mumblecore. Cray ugh bespoke freegan. Gastropub kinfolk cliche bespoke pinterest deep v stumptown tbh roof party banjo portland poke twee chia. Yuccie schlitz subway tile, small batch freegan health goth crucifix ugh man braid cornhole. Beard occupy mumblecore readymade direct trade iPhone next level small batch PBR&amp;amp;B.&lt;/p&gt;
+
+&lt;p&gt;Vice artisan prism pok pok tilde man braid selfies trust fund craft beer glossier. Kale chips sriracha offal cloud bread tattooed chambray fanny pack humblebrag tumblr mumblecore ugh lomo try-hard. Jean shorts normcore direct trade, tumblr health goth literally drinking vinegar viral letterpress mustache synth occupy dreamcatcher. Schlitz post-ironic ethical franzen unicorn. Air plant lomo vaporware street art, plaid art party kale chips franzen typewriter locavore green juice shabby chic offal. Food truck master cleanse cornhole, mustache disrupt gluten-free deep v farm-to-table irony art party thundercats +1 raclette.
+Oh. You need a little dummy text for your mockup? How quaint.&lt;/p&gt;
+
+&lt;p&gt;I bet you’re still using Bootstrap too…&lt;/p&gt;</content><author><name></name></author><category term="Sample" /><summary type="html">Jean shorts la croix subway tile master cleanse, lo-fi chartreuse hoodie. Pitchfork blog activated charcoal hammock jean shorts authentic mumblecore shaman polaroid drinking vinegar woke. Neutra green juice yuccie godard normcore. Vaporware tbh lo-fi cardigan lomo. Poutine fixie schlitz single-origin coffee adaptogen roof party twee slow-carb taiyaki pug sartorial banh mi brooklyn lyft pok pok. Affogato chambray messenger bag sartorial everyday carry.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://pa1.narvii.com/6341/656b421885e6b0aef04f1d02aa449f096a2b8529_00.gif" /><media:content medium="image" url="http://pa1.narvii.com/6341/656b421885e6b0aef04f1d02aa449f096a2b8529_00.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

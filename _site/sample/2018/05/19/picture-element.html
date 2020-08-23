@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Picture Elements - </title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      
+      <a class="nav-item nav-link" href="/">Home</a>
+      
+      <a class="nav-item nav-link" href="/blog">Blog</a>
+        
+    </div>
+  </div>
+</nav> 
+  <section id="" class="container pt-3">
+  <div class="row">
+    <div class="col"><article>
+        <h1 id="html-5-picture-element">HTML 5 Picture Element</h1>
+
+<h2 id="a-responsive-image">A Responsive Image</h2>
+
+<p>This is a responsive image, using the <code class="language-plaintext highlighter-rouge">&lt;picture&gt;</code> element.</p>
+
+<picture>
+    <source media="(max-width: 576px)" srcset="
+      /assets/images/responsive/-sm-1x.webp 1x,
+      /assets/images/responsive/-sm-2x.webp 2x
+    " type="image/webp" />
+    <source media="(max-width: 576px)" srcset="
+      /assets/images/responsive/-sm-1x.jpg 1x,
+      /assets/images/responsive/-sm-2x.jpg 2x
+    " type="image/jpeg" />
+    <source media="(max-width: 768px)" srcset="
+    /assets/images/responsive/-md-1x.webp 1x,
+    /assets/images/responsive/-md-2x.webp 2x
+    " type="image/webp" />
+    <source media="(max-width: 768px)" srcset="
+    /assets/images/responsive/-md-1x.jpg 1x,
+    /assets/images/responsive/-md-2x.jpg 2x
+    " type="image/jpeg" />
+    <source media="(min-width: 769px)" srcset="
+    /assets/images/responsive/-xl-1x.webp 1x,
+    /assets/images/responsive/-xl-2x.webp 2x
+    " type="image/webp" />
+    <source media="(min-width: 769px)" srcset="
+    /assets/images/responsive/-xl-1x.jpg 1x,
+    /assets/images/responsive/-xl-2x.jpg 2x
+    " type="image/jpeg" />
+    <img srcset="
+        /assets/images/responsive/-sm-1x.jpg 576w,
+        /assets/images/responsive/-md-1x.jpg 768w,
+        /assets/images/responsive/-xl-1x.jpg 1440w" src="/assets/images/responsive/-md-1x.jpg" alt="Picture Elements" class="figure-img rounded" type="image/jpeg" />
+  </picture>
+
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"><code class="language-plaintext highlighter-rouge">&lt;picture&gt;</code></a> element let’s you take advantage of responsive images. One of the key benefits is that users only download images at a size that matches their device. There’s no need to download a 1200px wide image to a smartphone with a screen that’s 320px wide, right?</p>
+
+<h2 id="how-to">How to</h2>
+
+<p>In order to add a responsive image to your post, you first need to add an <code class="language-plaintext highlighter-rouge">image</code> variable in your <em>front matter</em> like this:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Picture Elements</span>
+<span class="na">description</span><span class="pi">:</span>  <span class="s">Use picture element for responsive images</span>
+<span class="na">category</span><span class="pi">:</span> <span class="s">Sample</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">galen-crout-87390-unsplash.jpg</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Then you call the <code class="language-plaintext highlighter-rouge">picture.html</code> include file, using the following Liquid tag:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>picture.html<span class="w"> </span><span class="p">%}</span> 
+</code></pre></div></div>
+
+<p>This handy include let’s you not have to write the following code everytime. There is also another include file, <code class="language-plaintext highlighter-rouge">picture_logic.html</code>, that is called on the home page, which will use this same image on the post’s card entry.</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%-</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">image</span><span class="w"> </span><span class="p">-%}</span>
+<span class="p">{%-</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">f</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">image</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">split</span><span class="p">:</span><span class="w"> </span><span class="s1">'.'</span><span class="w"> </span><span class="p">-%}</span>
+<span class="p">{%-</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="s2">"/assets/images/responsive/"</span><span class="w"> </span><span class="p">-%}</span>
+  &lt;picture&gt;
+    &lt;source media="(max-width: 576px)"
+    srcset="
+      <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-sm-1x.webp 1x,
+      <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-sm-2x.webp 2x
+    "
+    type="image/webp"
+    &gt;
+    &lt;source media="(max-width: 576px)"
+    srcset="
+      <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-sm-1x.jpg 1x,
+      <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-sm-2x.jpg 2x
+    "
+    type="image/jpeg"
+    &gt;
+    &lt;source media="(max-width: 768px)"
+    srcset="
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-1x.webp 1x,
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-2x.webp 2x
+    "
+    type="image/webp"
+    &gt;
+    &lt;source media="(max-width: 768px)"
+    srcset="
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-1x.jpg 1x,
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-2x.jpg 2x
+    "
+    type="image/jpeg"
+    &gt;
+    &lt;source media="(min-width: 769px)"
+    srcset="
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-xl-1x.webp 1x,
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-xl-2x.webp 2x
+    "
+    type="image/webp"
+    &gt;
+    &lt;source media="(min-width: 769px)"
+    srcset="
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-xl-1x.jpg 1x,
+    <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-xl-2x.jpg 2x
+    "
+    type="image/jpeg"
+    &gt;
+    &lt;img
+      srcset="
+        <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-sm-1x.jpg 576w,
+        <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-1x.jpg 768w,
+        <span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-xl-1x.jpg 1440w"
+      src="<span class="p">{{</span><span class="w"> </span><span class="nv">img_path</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">append</span><span class="p">:</span><span class="w"> </span><span class="nv">relative_url</span><span class="w"> </span><span class="p">}}</span>-md-1x.jpg"
+      alt="<span class="p">{{</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="p">}}</span>"
+      class="figure-img rounded"
+      type="image/jpeg"
+      &gt;
+  &lt;/picture&gt;
+<span class="p">{%-</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">-%}</span>
+</code></pre></div></div>
+
+<h2 id="inspiration">Inspiration</h2>
+
+<p>Maciej Nowakowski has done an <strong>awesome</strong> writeup on Medium about this: <a href="https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433">A Guide to Responsive Images with Ready-to-Use Templates</a>.</p>
+
+<p>His guide was indespensible in creating this as well as the responsive Jumbotron background images.</p>
+
+<p>While it might seem a bit excessive to create a bunch of images like this, I think this comment sums it up nicely.</p>
+
+<blockquote class="blockquote">
+  <p class="mb-0">Why generate 12 versions of the same image when just 2 media-queries do the job? The users won’t notice... But Google will.</p><footer class="blockquote-footer">Maciej Nowakowski, 
+    <cite title="Source Title">Medium</cite>
+  </footer></blockquote>
+
+<h2 id="can-i-use">Can I Use?</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;picture&gt;</code> element is supported fairly well by modern browsers. Internet Explorer (IE) is sadly not very modern. There is a polyfill that I might add to support IE if anyone sends me enough crying emojis from their machine running Windows Vista.</p>
+
+<p class="ciu_embed" data-feature="picture" data-periods="future_3,future_2,future_1,current,past_1,past_2,past_3" data-accessible-colours="false">
+  <a href="http://caniuse.com/#feat=picture">Can I Use picture?</a> Data on support for the picture feature across the major browsers from caniuse.com.
+</p>
+
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+
+
+      </article>
+    </div>
+  </div>
+</section>
+</body>
+</html>

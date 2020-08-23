@@ -3,6 +3,7 @@ layout: post
 title: Code Snippets 
 description: Examples of Code Snippets with Syntax Highlighting
 category: Sample
+image: ../assets/images/markus-spiske-109588-unsplash.jpg
 ---
 
 # Code Syntax Highlighting with Rouge
