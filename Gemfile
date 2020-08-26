@@ -32,5 +32,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate-v2'
  # gem 'jekyll-autoprefixer' fonctionne pas a cause d une version
 end

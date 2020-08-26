@@ -2280,8 +2280,6 @@ ul.timeline-holder { margin: 0; padding: 25px 25px 25px 55px; background-color: 
 
 @media screen and (max-width: 1020px) { li.timeline-event { margin-bottom: 30px; } }
 
-li.timeline-event { margin: 0 0 42px 90px; position: relative; padding-top: 5px; list-style: none; transition: .3s; }
-
 span.timeline-circle { position: absolute; top: 0; left: -30px; }
 
 @media screen and (max-width: 767px) { .timeline-event-content { margin-left: 10px; } }
@@ -2289,16 +2287,6 @@ span.timeline-circle { position: absolute; top: 0; left: -30px; }
 .timeline-event-content { line-height: 160%; text-align: left; margin-left: 50px; }
 
 @media screen and (max-width: 767px) { .timeline-event-date { left: -100px; } }
-
-.timeline-event-date { position: absolute; left: -115px; top: 2px; transition: .3s; color: #1ab394; font-weight: 700; }
-
-span.timeline-circle { position: absolute; top: 0; left: -30px; }
-
-span.timeline-circle:before { content: ""; display: block; width: 35px; height: 35px; border-radius: 90%; border: 3px solid #1ab394; position: absolute; left: -16px; top: 3px; z-index: 1; transition: .3s; }
-
-li.timeline-event span.timeline-circle:after { content: ""; position: absolute; width: 19px; height: 19px; left: -8px; top: 11px; border-radius: 90%; background-color: #1ab394; opacity: 0; transition: opacity .3s; }
-
-li.timeline-event:before { content: ""; width: 3px; height: calc(100% - 20px); position: absolute; background-color: #1ab394; left: -30px; top: 51px; }
 
 li.timeline-event-without-before { margin: 0 0 42px 60px; position: relative; padding-top: 5px; list-style: none; transition: .3s; }
 
